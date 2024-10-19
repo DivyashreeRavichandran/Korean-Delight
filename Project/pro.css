@@ -1,0 +1,68 @@
+*{
+    text-decoration: none;
+}
+body{
+
+    background-image: url(https://www.hdwallpapers.in/download/white_leaves_on_side_with_dark_black_background_hd_black_aesthetic-1920x1080.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+section{
+    padding:2rem 9%;
+}
+
+body{
+    background-color:grey;
+}
+
+header{
+    position: fixed;
+    top:0; left:0; right:0;
+    background:rgb(222, 228, 226);
+    padding:1rem 7%;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index:1000;
+    box-shadow: var(-- box-shadow);
+}
+
+header .logo{
+    color:brown;
+    font-size:2rem;
+}
+
+header .navbar a{
+    padding: 1rem 0.5rem;
+}
+
+header .navbar a:hover{
+    border-radius: 0.5rem;
+    background:rgb(142, 136, 136);
+}
+
+.image
+{
+    margin-left:60%;
+    position: relative;
+    bottom:439px;
+}
+
+.content
+{
+    flex-basis:30%;
+    padding-top: 10%;
+    font-family: Arima Madurai;
+}
+
+.home .home-slider .slide .image img{
+    width: 100%;
+    border-radius: 50%;
+}
+
+.home .home-slider .slide .content con{
+    margin-right: 50%;
+}
+

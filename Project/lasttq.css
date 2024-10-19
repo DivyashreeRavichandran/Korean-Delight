@@ -1,0 +1,48 @@
+*{
+    text-decoration: none;
+}
+
+body{
+
+    background-image: url(https://wallpaperset.com/w/full/1/6/d/89748.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+header{
+    position: fixed;
+    top:0; left:0; right:0;
+    background:rgb(222, 228, 226);
+    padding:1rem 7%;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index:1000;
+    box-shadow: var(-- box-shadow);
+}
+
+header .logo{
+    color:brown;
+    font-size:2rem;
+}
+
+header .navbar a{
+    padding: 1rem 0.5rem;
+    top:1%;
+}
+
+header .navbar a:hover{
+    border-radius: 0.5rem;
+    background:rgb(142, 136, 136);
+}
+
+button{
+    padding: 8px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 1000px;
+    cursor: pointer;
+}
+
+button:hover{
+    background: rgb(57, 97, 199);
+}

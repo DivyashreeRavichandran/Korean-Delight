@@ -1,0 +1,47 @@
+*{
+    text-decoration: none;
+}
+
+body{
+
+    background-image: url(https://cdn.wallpapersafari.com/5/78/F05wqT.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+header{
+    position: fixed;
+    top:0; left:0; right:0;
+    background:rgb(222, 228, 226);
+    padding:1rem 7%;
+    height: 70px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index:1000;
+    box-shadow: var(-- box-shadow);
+}
+
+header .logo{
+    color:brown;
+    font-size:2rem;
+}
+
+header .navbar a{
+    padding: 1rem 0.5rem;
+}
+
+header .navbar a:hover{
+    border-radius: 0.5rem;
+    background:rgb(142, 136, 136);
+}
+
+.about .row .image{
+    flex:1 1 45rem;
+}
+
+.about .row .image img{
+    width:30%;
+    height: 40%;
+    border-radius: 50%;
+}
+

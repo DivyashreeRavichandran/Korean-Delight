@@ -1,0 +1,166 @@
+*{
+    text-decoration: none;
+}
+
+header{
+    
+    top:0; left:0; right:0;
+    background:rgb(222, 228, 226);
+    padding:1rem 7%;
+    height: 70px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index:1000;
+    text-decoration: none;
+}
+
+header .logo{
+    color:brown;
+    font-size:2rem;
+    text-decoration: none;
+}
+
+header .navbar a{
+    padding: 1rem 0.5rem;
+    text-decoration: none;
+}
+
+header .navbar a:hover{
+    border-radius: 0.5rem;
+    background:rgb(142, 136, 136);
+}
+
+header .icons i,
+header .icons a{
+    cursor: pointer;
+    padding: 1rem 0.5rem;
+}
+
+header .icons i:hover,
+header .icons a:hover{
+    border-radius: 0.5rem;
+    background:rgb(142, 136, 136);
+    transform: rotate(360deg); 
+}
+
+  .brand-logo{
+      padding: 0 30px;
+  
+  }
+  .brand-logo img{
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+  }
+  
+  #header{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-top: 40px;
+      padding-bottom: 10px;
+      position: sticky;
+      top: 0;
+      background: whitesmoke;
+      z-index: 1;
+  }
+  
+  .your-address{
+      border: 1px solid rgb(131, 48, 48);
+      color: rgb(241, 193, 193);
+      padding: 5px 10px;
+      border-radius: 5px;
+      width: 150px;
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      cursor: pointer;
+  
+  }
+  .add-box i{
+      font-size: 20px;
+  }
+
+  .food-items{
+      transition: 0.5s all ease-in-out;
+  }
+
+  #paneer #item-card{
+      background:  rgb(194, 125, 220);
+      transition: all;
+  }
+  #vegetable #item-card{
+      background: yellowgreen;
+  }
+  #card-top{
+      display: flex;
+      margin: 5px 0;
+      justify-content: space-between;
+  }
+  #rating{
+      padding: 7px;
+      color: rgb(78, 129, 114);
+      background: rgb(212, 205, 205);
+      font-size: 14px;
+      border-radius: 14px;
+  }
+  
+  #category-name,.item-menu{
+      margin: 10px;
+      font-size: 35px;
+      color: rgb(126, 71, 92);
+      text-align: center;
+      font-family:castellar;
+  }
+  #item-card{
+      width: 280px;
+      height: 350px;
+      padding: 10px;
+      margin: 30px;
+      display: inline-block;
+      border-radius: 15px;
+      background: rgb(227, 160, 160);
+      cursor: pointer;
+      text-align: center;
+      box-shadow:0 4px 8px 0;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  #item-card img{
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      margin: auto;
+      display: block;
+      margin-bottom: 25px;
+      transition: 0.5s all ease-in-out;
+      
+  }
+  #item-card img:hover img{
+      transform: scale(1.2);
+  
+  }
+  
+  #item-name{
+      margin: 5px;
+      font-weight: 600;
+      color: rgb(36, 39, 39);
+      font-size: 18px;
+  }
+
+  #item-price{
+      margin: 0;
+      color: rgb(67, 61, 55);
+      font-weight: 500;
+      font-size: 18px;
+  }
+  
+  .border{
+      width: 80px;
+      height: 4px;
+      margin: 3px 0;
+      margin-bottom: 30px;
+      border-radius: 2px;
+      background: coral;
+  }

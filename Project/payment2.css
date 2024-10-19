@@ -1,0 +1,59 @@
+*{
+    text-decoration: none;
+}
+
+
+section{
+    padding:2rem 9%;
+}
+
+body{
+
+        background-image: url(https://d6xcmfyh68wv8.cloudfront.net/blog-content/uploads/2020/10/Card-pre-launch_blog-feature-image1-770x515.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+}
+
+header{
+    top:0; left:0; right:0;
+    background:rgb(222, 228, 226);
+    padding:1rem 7%;
+    height: 70px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index:1000;
+    box-shadow: var(-- box-shadow);
+}
+
+header .logo{
+    color:brown;
+    font-size:2rem;
+}
+
+header .navbar a{
+    padding: 1rem 0.5rem;
+}
+
+header .navbar a:hover{
+    border-radius: 0.5rem;
+    background:rgb(142, 136, 136);
+}
+
+.main1{
+    width:500px;
+    margin:100px auto 0 auto;
+    padding:10px; 
+    border-radius:30px;
+}
+
+button{
+    padding: 8px;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+button:hover{
+    background: rgb(37, 66, 113);
+}

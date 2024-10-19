@@ -1,0 +1,97 @@
+*{
+    text-decoration: none;
+}
+.body{
+   display:flex;
+}
+
+section{
+    padding:2rem 9%;
+}
+
+body{
+
+        background-image: url(https://images.squarespace-cdn.com/content/v1/54e4aef0e4b002fddcd4baa2/1567612783262-DF8ZPZ7DY3LV21XYPSXH/DSC_0156.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+}
+
+header{
+    top:0; left:0; right:0;
+    background:rgb(222, 228, 226);
+    padding:1rem 7%;
+    height: 70px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index:1000;
+    box-shadow: var(-- box-shadow);
+}
+
+header .logo{
+    color:brown;
+    font-size:2rem;
+    text-decoration: none;
+}
+
+header .navbar a{
+    padding: 1rem 0.5rem;
+    text-decoration: none;
+}
+
+header .navbar a:hover{
+    border-radius: 0.5rem;
+    background:rgb(142, 136, 136);
+}
+
+.form-container{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
+
+.form-container form{
+    padding: 20px;
+    border-radius: 9px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .1);
+    background: rgba(240, 248, 255, 0.334);
+    text-align: center;
+    width: 400px;
+    backdrop-filter: blur(5px);
+}
+
+.form-container form h2{
+    font-size: 25px;
+    font-family: Arima Madurai;
+    font-weight: 100px;
+}
+
+.form-container form h3{
+    font-family: Arima Madurai;
+    font-weight: 100px;
+}
+
+
+.form-container form input{
+    width: 70%;
+    padding:10px 15px;
+    margin: 8px;
+    background: #eee;
+    border-radius: 9px;
+    font-family: Arima Madurai;
+}
+
+.form-container form .btn-primary{
+    cursor: pointer;
+    border: 1px solid black;
+    color: black;
+    padding: 10px;
+    font-family: Arima Madurai;
+    background: rgb(182, 121, 121);
+    width: 70%;
+}
+
+.form-container form .btn-primary:hover{
+    background: rgba(162, 50, 50, 0.792);
+}

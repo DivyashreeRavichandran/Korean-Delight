@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <title>page</title>
+        <script src="https://kit.fontawesome.com/42f3104ee1.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="payment.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+        <link href="https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@100;200;300;500;700;800;900&family=Handlee&family=Pacifico&display=swap" 
+        rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <a href="#" class="logo"><i class="fal fas fas fa-utensils"></i><font face="castellar" font size="5.5"><b>Korean Delight</b></font></a>
+            <nav class="navbar">
+                <a href="pro1.html"><font face="castellar" font size="3" font color="black"><b>Home</b></a>
+                <a href="login.html"><font color="black"><b>Login</b></font></a>
+                <a href="pro2.html"><font color="black"><b>About Us</b></a>
+                <a href="pro3.html"><font color="black"><b>Menu</b></a>
+                <a href="payment.html"><font color="black"><b>Payment</b></a>
+                <a href="newreview.html"><font color="black"><b>Reviews</b></a>
+            </nav>
+        </header>
+            <form action="action" method="post">
+            <h1><font color="white" font face="Arima Madurai">PAYMENT</font></h1>
+            <label for="name"><font face="Arima Madurai"><h3>Account holder name</font> <i class="fa-solid fa-user"></i></label><br>
+            <input class="box1" type="text" name="name" id="name" style="width: 60%" placeholder="Enter name" required><br>
+            <label for="email">EMAIL <i class="fa-solid fa-envelope"></i></label><br>
+            <input class="box1"type="email" name="email" id="email" style="width: 60%" placeholder="Enter Email" required><br>
+            <label>Payment Details:</label><br><br>
+               &emsp;<input type="radio" name="payment" id="CreditCard" value="Credit Card" required >
+                <label for="male">Credit Card <i class="fa-solid fa-credit-card"></i></label><br><br>
+               &emsp;<input type="radio" name="payment" id="debitcard" value="debitcard" required>
+                <label for="male">Debit Card <i class="fa-regular fa-credit-card"></i></label><br><br>
+            <label for="cardnum">Card Number</label><br>
+            <input class="box1" type="number" name="number" min="0" maxlength="12" id="number" style="width: 60%" placeholder="1234 1234 1234 1234" required><br>
+            <div class="child1">
+                <label for="card">Vaild Upto </label><br>
+                <input class="box2" type="number" name="number" min="0" id="month" style="width: 60%" placeholder="mm/yy" required><br>     
+            </div>
+
+            <div class="child1">
+                <label for="vardcvv">CVV</label><br>
+            <input class="box2" type="number" name="number" min="0"  id="amount" style="width: 60%" placeholder="123" required><br>
+            </div>
+
+            <div class="child2">
+                <label for="amount">AMOUNT <i class="fa-solid fa-indian-rupee-sign"></i></label><br>
+            <input class="box2" type="number" min="0" name="code" id="code" style="width: 60%" placeholder="enter amount" required><br>
+            <a href="payment2.html"><button type="button" style="width: 49%" class="btn btn-success">Pay Now</button></a>
+            <a href="pro1.html"><button type="button" style="width: 49%" class="btn btn-success">Close</button></a></div></b>
+            </body>
+        </form>
+    </html>

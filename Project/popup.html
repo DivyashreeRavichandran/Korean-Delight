@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <title>page</title>
+        <script src="https://kit.fontawesome.com/42f3104ee1.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="popup.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+        <link href="https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@100;200;300;500;700;800;900&family=Handlee&family=Pacifico&display=swap" 
+        rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <a href="#" class="logo"><i class="fal fas fas fa-utensils"></i><font face="castellar" font size="5.5"><b>Korean Delight</b></font></a>
+            <nav class="navbar">
+                <a href="pro1.html"><font face="castellar" font size="3" font color="black"><b>Home</b></a>
+                <a href="login.html"><font color="black"><b>Login</b></font></a>
+                <a href="pro2.html"><font color="black"><b>About Us</b></a>
+                <a href="pro3.html"><font color="black"><b>Menu</b></a>
+                <a href="payment.html"><font color="black"><b>Payment</b></a>
+                <a href="newreview.html"><font color="black"><b>Reviews</b></a>
+            </nav>
+        </header>
+        <div class="container">
+            <button type="sumnit" class="btn" onclick="openPopup()">submit</button>
+         <div class="popup" id="popup">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQD2W81DPQ0AlpW0M0ZtUaWSYC8V6KLO4GIEDbJD_ygO7quIExXEo4afKoXBKcAwtDWhLw&usqp=CAU">
+            <h2>Thank You!</h2>
+            <p>Your payment has been successfully completed. Thanks!</p>
+            <button type="button" onclick="closePopup()">OK</button>
+         </div>
+        </div>
+        <script src="popup.js"></script>
+    </body>
+    </html>
